@@ -19,14 +19,14 @@ LoginService loginService;
     @Override
     public void run(String... args) throws Exception {
         try {
-            String login = loginService.login("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
-                + "<TX>\n"
-                + "    <MESSAGE_HEADER>01</MESSAGE_HEADER>\n"
-                + "    <MESSAGE_BODY>\n"
-                + "        <USERID>320000001</USERID>\n"
-                + "        <PARAM>20150504123111225</PARAM>   \n"
-                + "    </MESSAGE_BODY>\n"
-                + "</TX>");
+//            String login = loginService.login("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
+//                + "<TX>\n"
+//                + "    <MESSAGE_HEADER>01</MESSAGE_HEADER>\n"
+//                + "    <MESSAGE_BODY>\n"
+//                + "        <USERID>320000001</USERID>\n"
+//                + "        <PARAM>20150504123111225</PARAM>   \n"
+//                + "    </MESSAGE_BODY>\n"
+//                + "</TX>");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
