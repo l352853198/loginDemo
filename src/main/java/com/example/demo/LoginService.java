@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Service
-@FeignClient(url = "http://10.211.4.104:8081",name="login",configuration = LoginService.FeignConfig.class)
+@FeignClient(url = "http://10.211.4.104:8101",name="login",configuration = LoginService.FeignConfig.class)
 public interface LoginService {
 
 

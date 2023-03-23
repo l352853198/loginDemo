@@ -39,9 +39,9 @@ public class XStreamFactory {
                     }
                     @Override
                     public void writeText(QuickWriter writer, String text) {
-                        writer.write(CDATA_PREFIX);
+ //                       writer.write(CDATA_PREFIX);
                         writer.write(text);
-                        writer.write(CDATA_SUFFIX);
+   //                     writer.write(CDATA_SUFFIX);
 //                        if (cdataFlag) {
 //                            writer.write(CDATA_PREFIX);
 //                            writer.write(text);
